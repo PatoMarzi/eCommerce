@@ -20,7 +20,7 @@ const NavBar = () => {
               <a href="">Deco</a>{" "}
             </li>
             <li className="boton2">
-              <CartWidget />
+              <CartWidget numero={5} />
             </li>
           </ul>
         </div>

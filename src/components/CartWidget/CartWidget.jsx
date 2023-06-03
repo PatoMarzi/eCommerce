@@ -1,12 +1,13 @@
 import "./CartWidget.css";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 
-const CartWidget = () => {
+
+const CartWidget = ({ numero }) => {
   return (
     <div className="container">
       <ShoppingCartIcon />
       <div className="nro">
-        <p>{3}</p>
+        <p>{numero}</p>
       </div>
     </div>
   );
