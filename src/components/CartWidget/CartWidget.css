@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.nro {
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 15px;
+  padding: 0;
+}
